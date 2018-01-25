@@ -66,7 +66,7 @@ cd /;
 mkdir -p /mnt/$Sdir/$Fname/$date/system/
 sudo tar -cjf /mnt/$Sdir/$Fname/$date/system/etc.tar.bz2 /etc/
 		echo "system: etc" >> /var/log/codre.curlftpfs.backuper.log;
-sudo tar -cjf /mnt/$Sdir/$Fname/$date/system/files/usr.tar.bz2 /usr/
+sudo tar -cjf /mnt/$Sdir/$Fname/$date/system/usr.tar.bz2 /usr/
 		echo "system: usr" >> /var/log/codre.curlftpfs.backuper.log;
 sudo tar -cjf /mnt/$Sdir/$Fname/$date/system/var.tar.bz2 /var/
 		echo "system: var" >> /var/log/codre.curlftpfs.backuper.log;
