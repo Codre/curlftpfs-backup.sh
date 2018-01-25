@@ -1,4 +1,4 @@
-What is ``backup.sh``?
+What is ``curlftpfs-backup.sh``?
 --------------------
 
 It's a simple script for backup site to cloud storage based on
