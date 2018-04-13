@@ -20,5 +20,5 @@ read Sdir;
 echo "\nSave backup days:";
 read Sdays;
 
-echo "doc_root=\"$doc_root\";\nsite_root=\"$site_root\";\nhost=\"$host\";\nusername=\"$username\";\npassword=\"$password\";\nShost=\"$Shost\";\nSuser=\"$Suser\";\nSpass=\"$Spass\";\nSdir=\"$Sdir\";\Sdays=\"$Sdays\";" > /etc/codre-curlftpfs-backuper.cfg;
+echo "doc_root=\"$doc_root\";\nsite_root=\"$site_root\";\nhost=\"$host\";\nusername=\"$username\";\npassword=\"$password\";\nShost=\"$Shost\";\nSuser=\"$Suser\";\nSpass=\"$Spass\";\nSdir=\"$Sdir\";\Sdays=$Sdays;" > /etc/codre-curlftpfs-backuper.cfg;
 echo "\nConfig save!";
